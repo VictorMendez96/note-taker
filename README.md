@@ -1,11 +1,12 @@
 # Note Taker
 
+
 ## Table of Contents
+
 - [Description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Application Screenshots](#application-screenshots)
-- [Tests](#Tests)
 - [Application Links](#application-links)
 
 
@@ -38,19 +39,22 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 
 
+
 ## Usage
 
 
 
+
 ## Application Screenshots
-![]()
-![]()
-![]()
-![]()
 
-## Tests
-
+![]()
+![]()
+![]()
+![]()
 
 
 ## Application Links
+
 [GitHub](https://github.com/VictorMendez96/note-taker)
+
+[Heroku Deployment]()
