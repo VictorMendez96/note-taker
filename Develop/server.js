@@ -4,7 +4,10 @@ const path = require('path');
 
 const PORT = process.env.PORT || 3001;
 
+// initiate express server
 const app = express();
+
+// Use express middleware for parsing JSON and urlencoded data
 
 // Get Route for homepage
 app.get('*', (req, res) =>
