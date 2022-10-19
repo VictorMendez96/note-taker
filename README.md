@@ -41,10 +41,10 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Application Screenshots
 
-![]()
-![]()
-![]()
-![]()
+![Homepage](./public/assets/images/homepage.png)
+![Notes Page](./public/assets/images/notes-page.png)
+![Added Multiple Notes](./public/assets/images/multiple-notes.png)
+![Deleted Note](./public/assets/images/after-delete.png)
 
 
 ## Application Links
