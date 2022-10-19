@@ -12,7 +12,16 @@ app.get('/notes', (req, res) => {
 
 // POST Route for new notes
 app.post('/notes', (req, res) => {
+    const { title, text } = req.body;
 
+    const newNote = {
+        title: req.body.title, 
+        text: req.body.text
+    };
+
+    db.push(newNote);
+
+    res.send(newNote);
 });
 
 // Bonus: DELETE Route for a specific note

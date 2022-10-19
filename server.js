@@ -1,7 +1,7 @@
 //Import required modules
 const express = require('express');
 const path = require('path');
-const api = require('./routes/index.js')
+const api = require('./routes/index')
 
 // Create PORT either from .env or port 3001
 const PORT = process.env.PORT || 3001;
@@ -18,7 +18,7 @@ app.use(express.static('public'));
 
 // Get Route for index.html page
 app.get('*', (req, res) =>
-  res.sendFile(path.join(__dirname, './public/index.html'))
+  res.sendFile(path.join(__dirname, './public/notes.html'))
 );
 
 // GET Route for notes.html page
