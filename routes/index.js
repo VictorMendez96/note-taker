@@ -1,6 +1,7 @@
 // import required modules
 const db = require('../db/db.json');
 const express = require('express');
+const { v4: uuidv4 } = require('uuid');
 
 // Initiate express server
 const app = express()
@@ -12,12 +13,15 @@ app.get('/notes', (req, res) => {
 
 // POST Route for new notes
 app.post('/notes', (req, res) => {
-    const { title, text } = req.body;
+
+    console.log(req.body)
 
     const newNote = {
+        id: uuidv4(),
         title: req.body.title, 
         text: req.body.text
     };
+    console.log(newNote)
 
     db.push(newNote);
 
