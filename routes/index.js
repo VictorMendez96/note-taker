@@ -7,7 +7,7 @@ const app = express()
 
 // GET Route for a all notes
 app.get('/api/notes', (req, res) => {
-
+    res.send(db);
 });
 
 // POST Route for new notes
