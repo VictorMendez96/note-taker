@@ -24,13 +24,17 @@ app.post('/notes', (req, res) => {
     console.log(newNote)
 
     db.push(newNote);
-
+    console.log(db)
     res.send(newNote);
 });
 
 // Bonus: DELETE Route for a specific note
-app.delete('/notes', (req, res) => {
-
+app.delete('/notes/:id', (req, res) => {
+    const id = req.params.id
+    del = db.findIndex((note) => note.id === id)
+    db.splice(del, 1)
+    
+    res.send(db)
 });
 
 module.exports = app;
