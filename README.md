@@ -36,7 +36,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Usage
 
-
+This application has been deployed to Heroku, no installation is required. You can click on the Heroku Deployment link below to start using the app! You will be brought to the homepage shown in the screenshots below. You can click 'Get Started' and it will take you to the notes page. Once there, there will already be an example note that is on the left side, as shown in the second screenshot. This note can be deleted if you wish to start with a clean notes page. Once you add a title and body to a new note you can click the save button on the top right shaped like a floppy disk. 
 
 
 ## Application Screenshots
